@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/see-tree-test.git/precache-manifest.c8336831e5489259b0edda0ce4974ef3.js"
+  "/see-tree-test/precache-manifest.adcb9899c3edcbfa1b5926ee8936a840.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/see-tree-test.git/index.html", {
+workbox.routing.registerNavigationRoute("/see-tree-test/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
