@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.markerlist {
+  list-style: none;
+  border-radius: 18px;
+  width: 130px;
+  padding: 20px 20px 20px 40px;
+}
+
+.markerlist-container {
+  position: absolute;
+  right: 20px;
+}
+
+.markerlist-btn, .markerlist-container ul {
+  box-shadow: 0 0 10px 2px rgba(31,51,73,.1);
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.export-btn {
+  height: 25px;
+  width: 190px;
+  border-radius: 9px;
+  outline: none;
+  cursor: pointer;
+}
+
+.markerlist li {
+  padding-bottom: 5px;
+}
+
+.score-title,
+.score-value {
+  display: inline-block;
+  width: 50%;
+}
+
+.score-value {
+  text-align: left;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
