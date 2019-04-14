@@ -2,7 +2,7 @@
   "name": "test-see-tree",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dianalemen.github.io/see-tree-test.git",
+  "homepage": "https://dianalemen.github.io/see-tree-test",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.17",
     "@fortawesome/free-solid-svg-icons": "^5.8.1",
